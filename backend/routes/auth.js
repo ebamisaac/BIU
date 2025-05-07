@@ -6,7 +6,7 @@ const Student = require('../models/Student');
 const { JWT_SECRET } = require('../config/db');
 
 // Login
-router.post('/login', async (req, res) => {
+router.post('/index', async (req, res) => {
     try {
         const { studentId, password } = req.body;
         
